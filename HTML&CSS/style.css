@@ -1,0 +1,65 @@
+#main{
+    background: #000;
+    height: 100%;
+    width: 100%;
+}
+
+.header{
+    background: rgba(39, 58, 82, 0.764);
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.container{
+    background: rgb(197, 185, 185);
+    padding: 50px;
+    gap: 10px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+ .about{
+    display: flex;
+    flex-direction: column;
+    background: white;
+    align-items: center;
+    justify-items: center;
+    width: 85vw;
+ }
+ .education{
+    background: white;
+    width: 85vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+ }
+ .education h3 {
+    background: burlywood;
+    padding: 10px;
+    width: 40vw;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+
+ }
+ #skills{
+    background: pink;
+ }
+#project{
+    background: yellowgreen;
+}
+#project h3{
+    background: white;
+}
+footer{
+    background: rgb(94, 94, 105);
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2px;
+}

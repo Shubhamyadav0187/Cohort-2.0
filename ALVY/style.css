@@ -1,0 +1,90 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+  background-color: black;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+main {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  color: white;
+}
+main section {
+  padding: 1rem;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+main section .top {
+  width: 100%;
+}
+main section .top img {
+  width: 100%;
+  border-radius: 10px;
+}
+main section .bottom {
+  gap: 1rem;
+  width: 100%;
+  border-radius: 1rem;
+  background-color: rgb(20, 20, 20);
+  display: flex;
+  flex-direction: column;
+  padding: 1.8rem;
+}
+main section .bottom p {
+  color: rgb(190, 194, 196);
+}
+main section .bottom .text {
+  margin-top: 30px;
+}
+main section .bottom .text p {
+  margin-top: 20px;
+  font-size: 20px;
+  line-height: 1.7;
+  font-weight: 100;
+  color: rgb(110, 113, 115);
+}
+main section .bottom .text h1 {
+  font-weight: 100;
+  color: rgb(163, 166, 167);
+  text-transform: uppercase;
+  font-size: 35px;
+}
+main section .bottom .text button {
+  margin-top: 1rem;
+  padding: 0.4rem 0.9rem;
+  cursor: pointer;
+  border-radius: 10px;
+  background-color: rgb(47, 46, 46);
+  color: white;
+}
+
+@media (min-width: 900px) {
+  main {
+    padding: 2rem 1rem;
+  }
+  main section {
+    flex-direction: row;
+    gap: 16px;
+  }
+  main section .top,
+  main section .bottom {
+    width: 50%;
+  }
+  main section .bottom {
+    justify-content: space-between;
+    padding: 3rem;
+  }
+  main section .bottom .text h1 {
+    font-size: 70px;
+  }
+}/*# sourceMappingURL=style.css.map */
